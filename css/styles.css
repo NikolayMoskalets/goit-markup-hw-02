@@ -1,8 +1,7 @@
 /* цвет основного текста #757575 */
 /* цвет контактов футера   rgba(255, 255, 255, 0.6) */
 /* цвет заголовков  #212121 */
-/* основной белый цвет #e5e5e5 */
-/* вторичный белый цвет #ffffff */
+/* основной белый цвет #ffffff */
 /* первичный серый цвет #2f303a */
 /* серый цвет секций #f5f4fa */
 /* акцент #2196f3 */
@@ -11,8 +10,7 @@
   --primary-text-color: #757575;
   --contacts-footer-color: rgba(255, 255, 255, 0.6);
   --title-text-color: #212121;
-  --primary-white-color: #e5e5e5;
-  --secondary-white-color: #ffffff;
+  --primary-white-color: #ffffff;
   --primary-grey-color: #2f303a;
   --section-grey-color: #f5f4fa;
   --accent-color: #2196f3;
@@ -37,7 +35,7 @@ body {
 
 /* header */
 header {
-  background-color: var(--secondary-white-color);
+  background-color: var(--primary-white-color);
 
   font-weight: 500;
   font-size: 14px;
@@ -96,7 +94,7 @@ header {
 }
 
 .hero-title {
-  color: var(--secondary-white-color);
+  color: var(--primary-white-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -109,7 +107,7 @@ header {
 .hero-button {
   background-color: var(--accent-color);
 
-  color: var(--secondary-white-color);
+  color: var(--primary-white-color);
 
   font-family: inherit;
   font-weight: 700;
@@ -158,6 +156,10 @@ header {
 
 /* our team */
 
+.team-section {
+  background-color: var(--section-grey-color);
+}
+
 .main-team-title {
   color: var(--title-text-color);
 
@@ -193,7 +195,7 @@ footer {
 }
 
 .footer-adress {
-  color: var(--secondary-white-color);
+  color: var(--primary-white-color);
 
   font-style: normal;
   font-weight: 400;
